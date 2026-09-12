@@ -1,0 +1,221 @@
+
+            html {
+                margin: 0;
+                scroll-behavior: smooth;
+            }
+            body {
+                background: #fff6eb;
+                color: #3a2305;
+                font-size: 1.2em;
+                margin: 0 auto;
+                text-align: center;
+            }
+            section {
+                margin: 0 0 150px;
+            }
+            .nav-container {
+                background: #241402;
+                margin: 0;
+                padding: 30px;
+                color: #fff6eb;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo {
+                color: #f5e3cf;
+                font-size: 1.5em;
+                margin: 0;
+            }
+            ul {
+                list-style-type: none;
+                display: flex;
+                gap: 30px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff6eb;
+            }
+            .hero {
+                background: linear-gradient(rgba(6, 2, 0, 0.8)), url("https://avatars.mds.yandex.net/i?id=124596d1bbe816bac5fddf7d74d87156_l-5910545-images-thumbs&n=13");
+                background-size: cover;
+                height: 360px;
+                color: #fff6eb;
+            }
+            .hero h1 {
+                margin: 0;
+            }
+            .hero-container {
+                height: 360px;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .catalog {
+                background: #9dc8db;
+                height: 50px;
+                margin: 30px 0 0 0;
+                border: none;
+                border-radius: 10px;
+                transition: 0.5s;
+            }
+            .catalog:hover {
+                background: #4187a2;
+            }
+            .catalog a {
+                color: #241402;
+                font-size: 1.3em;
+                padding: 15px;
+            }
+            .about-text img {
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: top;
+                height: 300px;
+                width: 300px;
+                pointer-events: none;
+            }
+            .about-text {
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+            }
+            .about-text div {
+                width: 50%;
+            }
+            .icon img {
+                height: 100px;
+                width: 100px;
+                object-fit: cover;
+                pointer-events: none;
+            }
+            .adv-icons {
+                display: flex;
+                flex-wrap: wrap;
+                width: 70%;
+                margin: 0 auto;
+            }
+            .icon {
+                width: 50%;
+                margin: 50px 0 0 0;
+            }
+            .advantages {
+                margin: 50px 0 0 0;
+            }
+            .photos {
+                margin-top: 100px;
+            }
+            .photos-container {
+                display: flex;
+                gap: 20px;
+                max-width: 1000px;
+                margin: 0 auto;
+                padding-top: 50px;
+            }
+            .photo1 {
+                flex: 1;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+            .photo2 {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .photo1 img {
+                width: 500px;
+                height: 500px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+            .photo2 img {
+                width: 500px;
+                height: 240px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+            .event-container {
+                display: flex;
+                gap: 40px;
+                margin: 0 auto;
+                max-width: 950px;
+                padding-top: 50px;
+            }
+            .event img {
+                height: 150px;
+                border-radius: 10px;
+                width: 280px;
+                object-fit: cover;
+                object-position: top;
+                pointer-events: none;
+            }
+            .event {
+                height: 300px;
+                border: 1px #9e8c77 solid;
+                border-radius: 10px;
+                padding: 10px;
+            }
+            .contacts-container {
+                display: flex;
+                gap: 40px;
+                padding: 40px 20px;
+                max-width: 1000px;
+                margin: 0 auto;
+            }
+            .schedule, .contact {
+                flex: 1;
+                min-width: 0;
+            } 
+            .schedule ul, .contact ul {
+                list-style: none;
+                padding: 20px;
+                margin: 0;
+                gap: 15px;
+                display: flex;
+                flex-direction: column;
+            }
+            .schedule li, .contact li {
+                padding: 0;
+                margin: 0;
+            }
+            .footer-container {
+                background: #241402;
+                margin: 0;
+                padding: 30px;
+                color: #fff6eb;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            footer ul {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .scroll-top-btn {
+                position: fixed;
+                bottom: 30px;
+                right: 30px;
+                width: 50px;
+                height: 50px;
+                background-color: #3a2305;
+                color: white;
+                border: none;
+                border-radius: 50%;
+                cursor: pointer;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1000;
+                opacity: 0.8;
+                transition: opacity 0.3s;
+            }
+            .scroll-top-btn:hover {
+                opacity: 1;
+            }
